@@ -48,3 +48,7 @@ body{
 .green{
     background-color: #2E8B57;
 }
+
+.selecionado{
+    background-color: #483D8B;
+}
