@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^https://sistema.rcpg.com.br$ [NC,OR] RewriteCond %{HTTP_HOST} ^https://sistema.rcpg.com.br$
+RewriteCond %{REQUEST_URI} !Sistema/public_html/
+RewriteRule (.*) /Sistema/public_html/$1 [L]
